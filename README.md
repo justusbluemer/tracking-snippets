@@ -3,7 +3,7 @@ Useful code snippets for web analytics &amp; tracking implementation
 
 ## Google Tag Manager
 
-Log pushed dataLayer events to console
+### Log pushed dataLayer events to console
 
 ```javascript
 (function(){
