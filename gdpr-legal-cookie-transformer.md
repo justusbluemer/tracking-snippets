@@ -1,6 +1,6 @@
 # Consent parsing for the "GDPR Legal Cookie" Shopify Plugin
 
-The "GDPR Legal Cookie" Shopify Plugin is designed to enable consent or denial thereof for every individual cookie.
+The ["GDPR Legal Cookie" Shopify Plugin](https://apps.shopify.com/gdpr-legal-cookie?locale=de) by beeclever is designed to enable consent or denial thereof for every individual cookie.
 With tag management though, consent is usually handled on a per-3rd-party tool. For example, you'd either handle consent for "Facebook" rather than for `_fbp` and `_fbc` cookies separately.
 
 The following code abstracts this complexity and produces an easy to handle object that provides a boolean (`true` or `false`) value for every "provider" found in the plugin's window.GDPR_LC object.
